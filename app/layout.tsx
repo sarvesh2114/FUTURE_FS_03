@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TravelEase - Your Journey, Our Promise",
   description: "Book flights, hotels, and holidays with ease. Experience the world with TravelEase.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
